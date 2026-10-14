@@ -1,0 +1,119 @@
+/* Color Palette
+# - color 1: #17324D (Deep Navy)
+# - color 2: #526579 (Slate Blue)
+# - color 3: #DCEAF4 (Soft Blue)
+# - color 4: #F7F9FB (Off-White)
+*/
+html{
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+/* Global styles 
+------------------------------------*/
+body {
+    /* background: lightblue; */
+    background:#DCEAF4;
+    margin:0;
+}
+
+.content-wrap{
+    max-width:950px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+}
+
+
+/* Header & Footer 
+------------------------------------*/
+header, footer{
+    background: #17324D;
+    color: #F7F9FB;
+}
+
+footer a{
+    color: #F7F9FB;
+}
+
+
+/* Work Experience
+------------------------------------*/
+.work-experience{
+    background:#F7F9FB;
+}
+
+
+
+/* Education
+------------------------------------*/ 
+.education{
+    background:#526579;
+}
+
+
+/*FONTS*/
+body, p, li {
+    font-family: "IBM Plex Serif", serif;
+    /*font weight*/
+    font-weight: 400;
+}
+
+h1, h2, h3 {
+    font-family: "PT Serif", serif;
+}
+
+
+/* FONT SIZE*/
+h1{
+    font-size: 4rem;
+    /*font weight*/
+    font-weight: 700;
+    margin:0;
+}
+
+h2{
+    font-size: 2rem;
+    margin-top:0;
+    margin:0;
+}
+
+h2,h3{
+    /*font weight*/
+    font-weight: 600;
+}
+
+.profile-img{
+  /* max-width: 300px; */
+  max-height: 300px;
+  /* float: left; */
+  /* margin-right: 30px; */
+}
+
+.profile-image{
+    border-radius: 50%;
+}
+
+
+footer{
+    text-align: center;
+}
+
+.contact-info a{
+    padding: 10px;
+    display: inline-block;
+}
+
+.column-narrow{
+    width: 30%;
+    float: left;
+    padding-right: 3%;
+    min-height: 175px;
+}
+.column-wide{
+    width: 70%;
+    float: left;
+    min-height: 225px;
+}
