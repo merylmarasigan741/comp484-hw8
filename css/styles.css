@@ -50,9 +50,24 @@ footer a{
 /* Education
 ------------------------------------*/ 
 .education{
-    background:#526579;
+    background-color:#526579;
+
 }
 
+.education p,
+.education li,
+.education h2,
+.education h3 {
+    font-weight: 700;
+}
+/*Image background*/
+.image-bg{
+    background: url(../images/background.jpg) no-repeat;
+}
+
+.alpha-bg{
+    background: rgba(82, 101, 121, 0.77);
+}
 
 /*FONTS*/
 body, p, li {
@@ -81,7 +96,6 @@ h2{
 }
 
 h2,h3{
-    /*font weight*/
     font-weight: 600;
 }
 
@@ -135,3 +149,4 @@ nav{
     top: 0;
     z-index: 1000;
 }
+
