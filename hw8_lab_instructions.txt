@@ -11,7 +11,7 @@ In this hw, you’ll continue working on your resume site. You can continue buli
 
             d. Add a menu item to your nav menu that links to a pdf version of your resume to download.   
 
-2. Add some font icons to your footer.
+2. Add some font icons to your footer. [DONE]
             a. Use fontawesome to add some font icons to your contact info. Some examples are shown in the lecture material..
 
 3. Add a background image to one of your resume sections.

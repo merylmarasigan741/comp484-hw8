@@ -124,6 +124,7 @@ nav a {
     color: #526579;
     text-decoration: none;
     padding: 10px;
+    font-weight: 900;
 }
 
 nav{
@@ -133,11 +134,4 @@ nav{
     position: sticky;
     top: 0;
     z-index: 1000;
-}
-
-@media print {
-    * {
-        -webkit-print-color-adjust: exact;
-        print-color-adjust: exact;
-    }
 }
