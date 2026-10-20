@@ -63,6 +63,8 @@ footer a{
 /*Image background*/
 .image-bg{
     background: url(../images/background.jpg) no-repeat;
+    background-attachment: fixed;
+    color: #F7F9FB;
 }
 
 .alpha-bg{
